@@ -7,3 +7,6 @@
 console.log('hello worlds');
 
 console.log(70+55)
+
+var n ='test';
+

@@ -22,3 +22,5 @@ console.log(lName);
 var firstName ='Sam'
 var lastName ='Walton'
 console.log(firstName+ ' '+ lastName);
+
+console.log(6/5);

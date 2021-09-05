@@ -1,67 +1,72 @@
 console.clear();
 
 /*
-primitive data types in JS:
-1-string
-2-number
-3-boolean
-4-null
-5-undefined
+Primative Data Type in JS
+string, number, boolean, null, undefined
 */
-var myName = 'JavaScript';
-console.log(typeof(myName));
+var myName = 'javascript'
+console.log(typeof(myName));//"string"
 
-var myName = "Java"
-console.log(typeof(myName));
+var myName = "java"
+console.log(typeof(myName));//"string"
+
 /*
 Number literal:
-we only have number data type. no int, double, byte...
+we anly have number data type. No int, double, byte,...
+
 */
-var myNum = 20;
-console.log(typeof(myNum));
+var myNum=20;
+console.log(typeof(myNum));//"number"
+var myNum=20.9;
+console.log(typeof(myNum));//"number"
 
-var myNum = 20.65;
-console.log(typeof(myNum));
 
-var myNum = 20/0;//infinity
-console.log(myNum);
-console.log(typeof(myNum));
+var myNum=20/0;
+console.log(myNum);//Infinity
+console.log(typeof(myNum));//"number"
 
-// num+string
-var num1 = 20 + 'a';
-console.log(num1);
-console.log(typeof(num1));
+//      num+string
+var num1=20+'a';
+console.log(num1);//"20a"
+console.log(typeof(num1));//"string"
 
-//string + num
-var num2 = 'a' + 20;
-console.log(num2);
-console.log(typeof num2);
+//      string+num
+var num2='a'+20;
+console.log(num2);//"a20"
+console.log(typeof(num2));//"string"
 
-//bool
+
+/*
+boolean:
+True or False
+*/
+
 var isExist=true;
-console.log(isExist);
-console.log(typeof(isExist));//boolean
+console.log(isExist);//true
+console.log(typeof(isExist));//"boolean"
 
-//null
-var pickedColor = null;
-console.log(pickedColor);
-console.log(typeof pickedColor);
+var isExist=false;
+console.log(isExist);//false
+console.log(typeof(isExist));//"boolean"
+
+
+/*
+null
+*/
+var pickedColor=null;
+console.log(pickedColor);//null
+console.log(typeof(pickedColor));//"object"
 
 
 /*
 undefined
 */
-​
+
 var selectedCar;
 console.log(selectedCar);//undefined
 console.log(typeof(selectedCar));//"undefined"
-​
+
 var selectedCar=undefined;
 console.log(selectedCar);//undefined
 console.log(typeof(selectedCar));//"undefined"
-​
-​
-​
-​
-​
-​
+
