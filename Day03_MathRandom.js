@@ -1,6 +1,6 @@
 /*
 Math.random(): returns random decimals beweet 0-0.99999999..
-Write a code to get ramdom number between 0-99(inclusive)
+Write a code to get ramdom number between 0-9(inclusive)
 */
 console.clear();
 //Step 1: get a number 0-0.99999999..

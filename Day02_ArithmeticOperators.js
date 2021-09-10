@@ -1,15 +1,15 @@
 /* 
 Arithmetic Operations
 +,-,*,/,%,++,--,**
-​
+
 % remainder / mod
-​
+
 x++ : post increment. first use x, then add 1
 ++x : pre increment. first add 1, then use x
-​
+
 x-- : post decrement. firt use x, then substract 1
 --x : pre decrement. first substract 1, then use x
-​
+
 */
 console.clear();
 

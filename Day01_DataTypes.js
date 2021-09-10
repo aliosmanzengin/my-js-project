@@ -70,3 +70,11 @@ var selectedCar=undefined;
 console.log(selectedCar);//undefined
 console.log(typeof(selectedCar));//"undefined"
 
+
+
+
+
+
+
+
+
